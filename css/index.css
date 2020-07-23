@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("../images/bg-top.svg");
+    background-repeat: no-repeat;
+    color: hsl(233, 13%, 49%);
+
+}
+
+.title {
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 35px;
+    font-size: 25px;
+}
+
+.options {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    
+}
+
+.corpo {
+    display: flex;
+    margin-top: 45px;
+    flex-wrap: wrap;
+    flex-direction: unset;
+    justify-content: center;
+    align-items: center;
+}
+
+.nomePlano {
+    padding: 20px;
+}
+
+.preco {
+    font-size: 55px;
+    margin-bottom: 30px;
+    color: hsl(232, 13%, 33%);
+}
+
+.items {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+hr {
+    border: -1px solid;
+    border-radius: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-color: hsl(240, 78%, 98%);
+}
+
+.learn-m {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: hsl(240, 78%, 98%);
+    font-weight: 600;
+    min-width: 82%;
+    min-height: 42px;
+    background-image: linear-gradient(to right,hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    border: none;
+    border-radius: 3.8px;
+    position: relative;
+    margin: 10px;
+    cursor: pointer;
+    background-image: gradient;
+}
+
+.bloco-side .learn-m:hover {
+    transition: 0.2s;
+    border: solid 1.4px;
+    border-color: hsl(237, 63%, 64%);
+    background-image: none;
+    background-color: hsl(240, 78%, 98%);
+    color: hsl(237, 63%, 64%);
+}
+
+.bloco-side-p .learn-m:hover {
+    transition: 0.2s;
+    border: solid 1.3px;
+    border-color: hsl(240, 78%, 98%);
+    background-image: linear-gradient(to right,hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    color: hsl(240, 78%, 98%);
+}
+
+.bloco-side {
+    -webkit-box-shadow: 0px 9px 15px -2px rgba(183,184,194,1);
+    -moz-box-shadow: 0px 9px 15px -2px rgba(183,184,194,1);
+    box-shadow: 0px 9px 15px -2px rgba(183,184,194,1);
+    background-color: hsl(240, 78%, 98%);
+    text-align: center;
+    min-width: 330px;
+    max-width: 330px;
+    max-height: 400px;
+    min-height: 400px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-right: 0;
+    margin-left: 0;
+    
+}
+
+.bloco-side-p {
+    -webkit-box-shadow: 0px 9px 15px -2px rgba(183,184,194,1);
+    -moz-box-shadow: 0px 9px 15px -2px rgba(183,184,194,1);
+    box-shadow: 0px 9px 15px -2px rgba(183,184,194,1);
+    background-image: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    justify-content: center;
+    text-align: center;
+    min-width: 330px;
+    min-height: 400px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-right: 0;
+    margin-left: 0;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.bloco-side-p .learn-m {
+    margin-top: 10px;
+    background-image: initial;
+    background-color: hsl(240, 78%, 98%);
+    color: hsl(237, 63%, 64%);
+    font-weight: bolder;
+    
+}
+
+button {
+    animation: none;
+    outline: none;
+}
+
+.bloco-side-p .nomePlano, .bloco-side-p .preco, .bloco-side-p .items {
+    color: hsl(240, 78%, 98%);;
+}
+
+footer {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
